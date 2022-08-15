@@ -7,13 +7,13 @@
 * Return: number of charactere printed
 **/
 
-int past_string(char * str)
+int past_string(char *str)
 {
-int c=0;
+int c = 0;
 
-for (int j=0; str[j] != '\0'; j++)
+for (int j = 0; str[j] != '\0'; j++)
 {
-    c += _putchar(str[j]);
+c += _putchar(str[j]);
 }
 
 return (c);
