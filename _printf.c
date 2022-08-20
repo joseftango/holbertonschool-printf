@@ -56,7 +56,6 @@ break;
 case 'X':
 count += p_hexa_upper(va_arg(elem, unsigned int));
 break;
-
 }
 i++;
 }
